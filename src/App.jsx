@@ -3,7 +3,6 @@ import './App.css'
 import search from './assets/icons/search.svg'
 import { useStateContext } from './Context'
 import { BackgroundLayout, WeatherCard, MiniCard } from './components'
-
 function App() {
 
   const [input, setInput] = useState('')
